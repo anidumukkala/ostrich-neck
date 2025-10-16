@@ -16,8 +16,8 @@ DEVICENAME              = 'COM5'
 BAUDRATE                = 4000000
 
 # Motor IDs (change IDs if needed)
-DXL_ID_YAW              = 12
-DXL_ID_PITCH            = 13
+DXL_ID_YAW              = 14
+DXL_ID_PITCH            = 15
 
 # Initialize PortHandler & PacketHandler
 portHandler = PortHandler(DEVICENAME)
