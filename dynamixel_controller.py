@@ -17,7 +17,7 @@ LEN_PRESENT_POSITION    = 4
 PROTOCOL_VERSION        = 2.0
 
 # Port and baudrate (Generally COM for Windows, ttyUSB for Linux)
-DEVICENAME              = 'COM5'
+DEVICENAME              = 'dev/ttyUSB0'
 BAUDRATE                = 4000000
 
 # Motor IDs (change IDs if needed)
