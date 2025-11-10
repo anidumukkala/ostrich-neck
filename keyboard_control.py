@@ -6,7 +6,7 @@ import time
 
 HOME_YAW = 2048
 HOME_PITCH = 2048
-STEP = 50  # change per arrow key press (speed control)
+STEP = 25  # change per arrow key press (speed control)
 YAW_MIN, YAW_MAX = 0, 4095
 PITCH_MIN, PITCH_MAX = 1024, 3072
 TIME_SLEEP = 0.01 # update frequency (seconds)
