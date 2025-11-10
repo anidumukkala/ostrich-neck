@@ -1,5 +1,10 @@
+# import sys
+# from dynamixel_sdk import *  # Uses Dynamixel SDK library
+
 import sys
-from dynamixel_sdk import *  # Uses Dynamixel SDK library
+import os
+sys.path.insert(0, os.path.dirname(__file__))  # ensure local modules win
+from dynamixel_sdk import *   # works without system install
 
 # Control table addresses (XM430-W350 or similar, adjust if needed)
 ADDR_TORQUE_ENABLE      = 64
@@ -16,8 +21,8 @@ DEVICENAME              = 'COM5'
 BAUDRATE                = 4000000
 
 # Motor IDs (change IDs if needed)
-DXL_ID_YAW              = 12
-DXL_ID_PITCH            = 13
+DXL_ID_YAW              = 14
+DXL_ID_PITCH            = 15
 
 # Initialize PortHandler & PacketHandler
 portHandler = PortHandler(DEVICENAME)
